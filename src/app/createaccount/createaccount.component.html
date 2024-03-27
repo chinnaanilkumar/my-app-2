@@ -1,0 +1,25 @@
+<h1>Create Account</h1>
+
+<form  [formGroup]="accountForm">
+    <label>account_name:</label>
+    <input type="" formControlName="account_name">
+    <br><br>
+    <label >available_balance:</label>
+    <input type="" formControlName="available_balance">
+    <br><br>
+    <label>account_number:</label>
+    <input type="" formControlName="account_number">
+    <br><br>
+    <label>	city:</label>
+    <input type="" formControlName="city">
+    <br><br>
+    <label>profie_picture:</label>
+    <input type="" formControlName="profie_picture"><br> <br>
+    <label>id:</label>
+    <input type="" formControlName="id">
+    <br>
+    <br>
+
+</form>
+ 
+<button  class="btn btn-danger" (click)="Submit()">Submit</button>

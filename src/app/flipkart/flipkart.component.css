@@ -1,0 +1,39 @@
+.container {
+    height: 160%;
+    width: 160%;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    background-color: white;
+
+
+}
+
+.card {
+    height: 355px;
+    width: 200px;
+    background-color: white;
+    margin: 20px;
+
+}
+
+.image {
+    height: 200px;
+    width: 200px;
+}
+
+.rating {
+    background-color: lightgoldenrodyellow;
+    height: 20px;
+    width: 50px;
+    font-size: 10px;
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+    color: green;
+    
+
+}
+.category{
+    margin-top: -15px;
+}
